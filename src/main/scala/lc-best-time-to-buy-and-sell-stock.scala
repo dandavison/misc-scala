@@ -8,9 +8,11 @@ choosing a different day in the future to sell that stock.
 Return the maximum profit you can achieve from this transaction. If you cannot
 achieve any profit, return 0.
  */
+package lc
+
 import scala.collection.mutable;
 
-object solution {
+object BestTimeToBuyAndSellSolution {
 
   object State extends Enumeration {
     val NeverHad, Have, Had = Value

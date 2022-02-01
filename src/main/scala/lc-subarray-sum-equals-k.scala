@@ -4,11 +4,11 @@
   Given an array of integers nums and an integer k, return the total number of
   continuous subarrays whose sum equals to k.
  */
+package lc
+
 import scala.collection.mutable;
 
-class Solution {}
-
-object Solution {
+object SubArraySumSolution {
   def subarraySum(nums: Array[Int], k: Int): Int = {
     // Suppose partialSums[i] = s. Then we add to the count the count of partial
     // sums to the left that have the value n - k, since each of these marks the

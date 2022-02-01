@@ -1,3 +1,5 @@
+import okscala.OkRuntimeClassSyntax
+
 object Main extends App {
-  println("Hello, World!")
+  OkRuntimeClassSyntax()
 }
