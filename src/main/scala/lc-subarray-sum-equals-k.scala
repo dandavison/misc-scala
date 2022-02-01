@@ -6,6 +6,8 @@
  */
 import scala.collection.mutable;
 
+class Solution {}
+
 object Solution {
   def subarraySum(nums: Array[Int], k: Int): Int = {
     // Suppose partialSums[i] = s. Then we add to the count the count of partial
