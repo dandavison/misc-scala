@@ -1,5 +1,5 @@
-import okscala.OkRuntimeClassSyntax
+import okscala.Experiment
 
 object Main extends App {
-  OkRuntimeClassSyntax()
+  Experiment()
 }
