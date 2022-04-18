@@ -1,5 +1,5 @@
-import okscala.Experiment
+import okscala.CaseClassWithAlternateConstructor
 
 object Main extends App {
-  Experiment()
+  CaseClassWithAlternateConstructor("myFieldVal")
 }

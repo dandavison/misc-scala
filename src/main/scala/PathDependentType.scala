@@ -7,7 +7,7 @@ object Experiment {
     }
 
     val x = ThingWithType()
-    val y = f[x.T]
+    val y = f[Int]
     println(y)
   }
 
